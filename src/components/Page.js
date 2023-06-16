@@ -4,7 +4,7 @@ const Page=({ header, footer, children }) => {
     return (
       <div>
         <h1>{header}</h1>
-        <div className="content" >{children}</div>
+        <p className="content" >{children}</p>
         <div className="content">{footer}</div>
       </div>
     );
